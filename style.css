@@ -81,10 +81,14 @@ main > div > p > mark {
     background-color: rgb(157, 243, 157);
 }
 
-.imagem {
+main img {
+    width: 100%;
+}
+
+main img.imagem {
     max-width: 350px;
     display: block;
-    text-align: center;
+    margin: auto;
 }
 
 span {
