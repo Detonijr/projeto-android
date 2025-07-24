@@ -82,6 +82,7 @@ main > div > p > mark {
 }
 
 .imagem {
+    max-width: 350px;
     display: block;
     text-align: center;
 }
