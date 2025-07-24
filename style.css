@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 228, 196, 0.603);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(86, 177, 86, 0.678), black);
+    padding: 20px;
+}
+
+header > div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+header > div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#menu > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgba(132, 196, 148, 0.582);
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+div#menu > a:hover {
+    background-color: rgb(15, 68, 1);
+    color: rgba(132, 196, 148, 0.582);
+    border-radius: 5px;
+}
+
+main > div {
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.411);
+}
+
+main > div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+main > div > h1 {
+    color: rgb(2, 70, 2);
+    font-family: Android, sans-serif;
+    font-weight: 100;
+}
+
+main > div > h2 {
+    font-family: Android, sans-serif;
+    background-image: linear-gradient(to left, white, rgba(0, 128, 0, 0.507));
+    font-weight: 100;
+    color: rgb(2, 70, 2);
+}
+
+main > div > p > mark > a {
+    text-decoration: none;
+}
+
+main > div > p > mark {
+    background-color: rgb(157, 243, 157);
+}
+
+.imagem {
+    display: block;
+    text-align: center;
+}
+
+span {
+    color: rgb(0, 70, 0);
+    font-weight: bold;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.lista {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ancora {
+    color: rgb(0, 34, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titulo3 {
+    background-color: rgb(0, 71, 0);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.mais {
+    background-color: #7FE0AB;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.39);
+}
+
+.paragrafo {
+    padding: 10px;
+    text-indent: 20px;
+}
+
+footer {
+    background-color: darkgreen;
+    margin-top: 30px;
+    text-align: center;
+}
+footer > p {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
